@@ -62,15 +62,15 @@ OUTPUT: values provided by the c++ program to the simulator
 4. Run it: `./ExtendedKF `
 
 ## Extended Kalman Filter
-Once the filter is connected to the simulator using the ./ExtendedKF command, we run the filter on both data sets.
+Once the filter is connected to the simulator using the ./ExtendedKF command, we run the filter on both data sets. According t the project rubric, the code compiles and runs. I did not make any changes to the main.cpp file
 
 ### Dataset 1
 
-![Simulator with dataset 1](./data1.png)
+![Simulator with dataset 1](./data1.PNG)
 
 ### Dataset 2
 
-![Simulator with dataset 1](./data2.png)
+![Simulator with dataset 1](./data2.PNG)
 
 As you can see the filter runs with both datasets and accuracy falls within the rubric points. RMSE <= [.11, .11, 0.52, 0.52]
 
